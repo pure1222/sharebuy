@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Share buy</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand">
+          <%= link_to("Share buy","/",id: "logo") %>
+        </nav>
+      </div>
+    </header>
+    
+    <%= yield %>
+    </div>
+    <footer class="container-fluid text-center">
+      <p class="font-weight-bold pt-3"><%= link_to("Share buyとは","/home/description",class: "header-link") %></p>
+      <p class="font-weight-bold"><%= link_to("お問い合わせ","#",class: "header-link") %></p>
+      <p class="font-weight-bold pb-3"><%= link_to("ヘルプ","#",class: "header-link") %></p>
+    </footer>
+  </body>
+</html>

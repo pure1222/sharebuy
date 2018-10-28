@@ -1,0 +1,53 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1.font-weight-bold{
+    padding-top: 200px;
+    padding-bottom: 20px;
+    color: #008080;
+}
+.link{
+    margin-top: 50px;
+    padding-bottom: 150px;
+}
+p{
+    color: #FFFFFF;
+}
+
+input{
+    border: none;
+    border-radius: 10px;
+    box-shadow: none;
+    padding: 2px 3px;
+    border: 1px solid #aaa;
+    height: 40px;
+    margin-right: 9px;
+}
+input:focus{
+    outline: none;
+    box-shadow: 0 0 7px #1abc9c;
+    width: 300px;
+}
+#share{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+span.font-weight-bold{
+    font-size: 30px;
+}
+#main{
+  background-image: url(https://cdn.pixabay.com/photo/2016/10/14/10/54/shared-apartment-1739932_1280.jpg);
+  background-size: cover;
+  background-position: 0% 50%;
+}
+img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 250px;
+}
+.my-4{
+    margin-left: 460px;
+    margin-right: 400px;
+}

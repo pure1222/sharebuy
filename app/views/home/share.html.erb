@@ -1,0 +1,11 @@
+<div class="container-fluid text-center" id="main">
+  <%= form_tag("/home/create") do %>
+  <div class="container-fluid" id="share">
+  <span class="font-weight-bold">メールアドレス</span>
+  <input name="email" placeholder="example@gmail.com">
+  <span class="font-weight-bold">欲しいもの</span>
+  <input name="want" placeholder="欲しい物のURL or 名前">
+  <input type="submit" value="シェア相手を探す" class="btn btn-primary">
+  </div>
+  <% end %>
+</div

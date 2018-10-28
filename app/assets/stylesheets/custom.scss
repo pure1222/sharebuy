@@ -1,0 +1,23 @@
+@import "bootstrap";
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #008080;
+  letter-spacing: -1px;
+  
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+footer{
+  background-color: #003333;
+}
+.header-link{
+  color: #FFFFFF;
+}
