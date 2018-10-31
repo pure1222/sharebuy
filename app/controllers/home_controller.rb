@@ -10,6 +10,7 @@ class HomeController < ApplicationController
       ReserveMailer.reserve_share(@applicant).deliver
       redirect_to("/home/#{@applicant.id}")
     else
+      flash[:notice]="メールアドレスもしくは、欲しいものが入力されていません。"
       redirect_to("/home/share")
     end
   end
