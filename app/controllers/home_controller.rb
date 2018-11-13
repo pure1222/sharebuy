@@ -20,4 +20,7 @@ class HomeController < ApplicationController
   def description
     
   end
+  def rule
+  end
+  
 end
