@@ -51,6 +51,12 @@ img{
     width: 400px;
     height: 250px;
 }
+img.line{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 400px;
+}
 #description{
     background-color: #04B4AE;
 }
@@ -71,6 +77,11 @@ img{
     border-radius: 10px;
 }
 span.des{
+    display: block;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#setumei{
     display: block;
     padding-right: 50px;
     padding-left: 50px;
